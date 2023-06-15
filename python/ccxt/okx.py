@@ -291,7 +291,7 @@ class okx(Exchange, ImplicitAPI):
                         # convert
                         'asset/convert/currencies': 5 / 3,
                         'asset/convert/currency-pair': 5 / 3,
-                        'asset/convert/estimate-quote': 5,
+                        
                         'asset/convert/trade': 5,
                         'asset/convert/history': 5 / 3,
                         # options
@@ -367,6 +367,8 @@ class okx(Exchange, ImplicitAPI):
                         'broker/nd/subaccount/delete-apikey': 10,
                         'broker/nd/subaccount/modify-apikey': 10,
                         'broker/nd/rebate-per-orders': 36000,
+                        # convert
+                        'asset/convert/estimate-quote': 5,
                         # earn
                         'finance/staking-defi/purchase': 3,
                         'finance/staking-defi/redeem': 3,
